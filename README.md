@@ -1,4 +1,4 @@
-# Machine Learning Algorithms from Scratch
+# Mimir
 
 This repository contains from-scratch implementation of common machine learning algorithms such as Linear Regression, Logistic Regression, K-nearest neighbors, Neural Networks and Backpropagation, etc...
 
