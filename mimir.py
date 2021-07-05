@@ -540,7 +540,7 @@ class KMeans:
            # the computed distances to be the next
            # previous distances
 
-           if prev_distances is distances: break
+           if prev_distances == distances: break
            else: prev_distances = distances
 
        # Returns the locations of the clusters
@@ -1037,7 +1037,7 @@ if __name__ == "__main__":
 
    #print(centroids)
 
-   # if len(x) is len(y):
+   # if len(x) == len(y):
    #     theta, errors = linregTest(x, y)
    #     theta1, errors1 = linregStochastic(x, y)
    #     theta2, errors2 = linreg(x_2, y, 1000)
